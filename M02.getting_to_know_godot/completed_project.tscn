@@ -98,6 +98,7 @@ position = Vector2(768, 512)
 [node name="RoomA" parent="." instance=ExtResource("5_d5k6w")]
 
 [node name="WeaponPickup" parent="RoomA" instance=ExtResource("6_w1fjs")]
+visible = false
 position = Vector2(1023.56, 385.173)
 
 [node name="WeaponPickup2" parent="RoomA" instance=ExtResource("6_w1fjs")]
@@ -107,7 +108,7 @@ position = Vector2(511.119, 768.586)
 position = Vector2(3199.26, 643.667)
 
 [node name="RoomB" parent="." instance=ExtResource("6_d2i4m")]
-position = Vector2(2304, 256)
+position = Vector2(2309, 240)
 
 [node name="RoomC" parent="." instance=ExtResource("7_g7cph")]
 position = Vector2(1792, -2048)
